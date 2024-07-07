@@ -1,0 +1,32 @@
+.footer{
+  display: inline;
+  width: 100%;
+  font-weight: bold;
+  font-size:1.25rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+  margin: 0;
+  padding: 0;
+}
+
+footer ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  border: solid 5px var(--purple);
+  background-color:  var(--purple) ;
+  width: 600px;
+  height: 90px;
+  border-radius: 20px;
+  list-style: none;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+footer a{
+  text-decoration: none;
+  color: var(--white);
+}
