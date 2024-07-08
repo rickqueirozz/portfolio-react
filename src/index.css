@@ -17,3 +17,7 @@
   font-style: none;
   list-style-type: none;
 }
+
+span{
+  color: var(--purple);
+}

@@ -1,0 +1,28 @@
+.sectionSobre{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 8rem;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--black);
+  color: var(--white);
+  gap: 10rem;
+}
+
+.conteudo {
+  border-left: 4px solid var(--purple);
+  padding-left: 25px; 
+}
+
+.conteudo h1{
+  font-size: 4rem;
+  margin-top: -50px;
+  gap: 30px;
+}
+
+.conteudo p{
+  font-size: 1.2rem;
+  margin-top: 3rem;
+}
+
+
