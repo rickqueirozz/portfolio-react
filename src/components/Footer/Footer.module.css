@@ -12,21 +12,21 @@
   padding: 0;
 }
 
-footer ul{
+.footerContent{
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 4rem;
   border: solid 5px var(--purple);
-  background-color:  var(--purple) ;
-  width: 600px;
+  background-color: var(--purple) ;
+  width: 300px;
   height: 90px;
   border-radius: 20px;
   list-style: none;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-footer a{
-  text-decoration: none;
-  color: var(--white);
+.icon svg{
+  font-size: 2rem;
+  color: var(--black);
 }
