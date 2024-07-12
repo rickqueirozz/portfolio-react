@@ -10,10 +10,8 @@ const Footer = () => {
         </div>
         <div className={styles.icon}>
           <a href='https://www.linkedin.com/in/ricardo-queiroz-826656231/'><FaLinkedin/></a>
-
         </div>
       </div>
-        
     </footer>
   )
 }

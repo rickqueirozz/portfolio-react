@@ -1,15 +1,12 @@
 .footer{
-  display: inline;
   width: 100%;
   font-weight: bold;
   font-size:1.25rem;
   color: white;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   background-color: var(--black);
-  margin: 0;
-  padding: 0;
 }
 
 .footerContent{

@@ -6,10 +6,10 @@
 .sectionContato::before {
   content: '';
   position: absolute;
-  top: 11rem;
-  left: 8rem; /* Ajuste conforme necessário para posicionar a borda corretamente */
-  width: 4px; /* Largura da borda */
-  height: 470px;
+  top: 11.2rem;
+  left: 8rem; 
+  width: 4px; 
+  height: 31.6rem;
   background-color: var(--purple);
 }
 
@@ -20,7 +20,7 @@
 }
 
 .title{
-  padding-top: 5rem;
+  padding-top: 8rem;
   padding-left: 9.5rem;
   
 }

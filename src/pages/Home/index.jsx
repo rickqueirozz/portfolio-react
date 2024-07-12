@@ -2,9 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../../components/Header'
 import styles from './Home.module.css';
+import Footer from '../../components/Footer';
 const Home = () => {
   return (
-    <div>
+    <div className={styles.home}>
       <Header/>
       <section className={styles.container}>
         <div className={styles.apresentacao}>
@@ -12,11 +13,11 @@ const Home = () => {
          <h2 className={styles.h2Container}>Desenvolvedor Front-end</h2>
          <Link to="/sobre" className={styles.btnContainer}>Saiba mais</Link>
         </div>
-        <div className={styles.circle}>
-          <div className={styles.conimg}>
+          <div className={styles.circle}>
+            <div className={styles.conimg}>
               
+            </div>
           </div>
-        </div>
       </section>
       
     </div>

@@ -1,9 +1,14 @@
-.container {
+.home{
   height: 100vh;
+  background-color: black;
+}
+
+.container {
   display: flex;
   justify-content: space-around;
-  background-color: var(--black);
   align-items: center;
+  background-color: black;
+  height: 90vh;
 }
 
 .apresentacao {
@@ -42,23 +47,14 @@
 }
 
 .circle {
-  width: 600px;
-  height: 620px;
+  width: 500px;
+  height: 520px;
   border-radius: 50%;
   border: 20px solid var(--purple);
   box-shadow: 0 0 30px var(--purple);
   position: relative;
 }
 
-.dot {
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  border-radius: 50%;
-  position: absolute;
-  right: -10px;
-  top: calc(50% - 10px);
-}
 
 .conimg {
   display: flex;
