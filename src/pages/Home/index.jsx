@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Header from '../../components/Header'
 import styles from './Home.module.css';
-import Footer from '../../components/Footer';
+import CurriculoRQ from '../../assets/CurriculoRQ.pdf';
 const Home = () => {
   return (
     <div className={styles.home}>
@@ -10,8 +9,10 @@ const Home = () => {
       <section className={styles.container}>
         <div className={styles.apresentacao}>
          <h1 className={styles.h1Container}>Ricardo Queiroz</h1>
-         <h2 className={styles.h2Container}>Desenvolvedor Front-end</h2>
-         <Link to="/sobre" className={styles.btnContainer}>Saiba mais</Link>
+         <h2 className={styles.h2Container}>Desenvolvedor <span>Front-end</span></h2>
+         <a href={CurriculoRQ} target="_blank" rel="noopener noreferrer" className={styles.btnContainer}>
+            Meu Currículo
+          </a>
         </div>
           <div className={styles.circle}>
             <div className={styles.conimg}>
@@ -19,7 +20,6 @@ const Home = () => {
             </div>
           </div>
       </section>
-      
     </div>
   )
 }
