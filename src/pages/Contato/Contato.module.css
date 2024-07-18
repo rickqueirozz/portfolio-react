@@ -31,7 +31,7 @@
 
 .conteudo{
   display: flex;
-  padding-top: 139px;
+  padding-top: 1rem;
   justify-content: center;
 }
 
@@ -41,7 +41,7 @@
   border-radius: 20px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   color: var(--white);
-  width: 380px;
+  width: 450px;
   height: 300px;
 }
 
