@@ -9,7 +9,8 @@ const Contato = () => {
       <Header/>
       <section className={styles.sectionContato}>
         <div className={styles.title}>
-          <h1 className={styles.titleH1} >Contato</h1>
+          <h1 className={styles.titleH1}>Contato</h1>
+        </div>
         <div className={styles.conteudo}>
             <div className={styles.conteudoLinks}>
               <div className={styles.conteudoIcons}>
@@ -22,7 +23,6 @@ const Contato = () => {
                 <p>São Paulo | SP</p>
               </div>
             </div>
-        </div>
         </div>
       </section>
     </div>
